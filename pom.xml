@@ -12,8 +12,8 @@
     <version.junit-jupiter-api>5.10.1</version.junit-jupiter-api>
 
     <version.maven-compiler-plugin>3.11.0</version.maven-compiler-plugin>
-    <source.maven-compiler-plugin>17</source.maven-compiler-plugin>
-    <target.maven-compiler-plugin>17</target.maven-compiler-plugin>
+    <source.maven-compiler-plugin>21</source.maven-compiler-plugin>
+    <target.maven-compiler-plugin>21</target.maven-compiler-plugin>
     <version.maven-surefire-plugin>3.2.2</version.maven-surefire-plugin>
   </properties>
 
