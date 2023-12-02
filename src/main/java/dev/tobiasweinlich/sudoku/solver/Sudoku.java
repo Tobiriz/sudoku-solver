@@ -1,6 +1,6 @@
 package dev.tobiasweinlich.sudoku.solver;
 
-import field.Field;
+import dev.tobiasweinlich.sudoku.solver.field.Field;
 
 public final class Sudoku {
 
