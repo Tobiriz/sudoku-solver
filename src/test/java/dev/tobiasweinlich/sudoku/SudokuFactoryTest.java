@@ -1,8 +1,7 @@
-package dev.tobiasweinlich.sudoku.solver;
+package dev.tobiasweinlich.sudoku;
 
+import dev.tobiasweinlich.sudoku.field.FieldFactory;
 import org.junit.jupiter.api.Test;
-
-import dev.tobiasweinlich.sudoku.solver.field.FieldFactory;
 
 import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 

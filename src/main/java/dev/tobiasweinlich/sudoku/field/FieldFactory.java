@@ -1,4 +1,4 @@
-package dev.tobiasweinlich.sudoku.solver.field;
+package dev.tobiasweinlich.sudoku.field;
 
 public class FieldFactory {
 
