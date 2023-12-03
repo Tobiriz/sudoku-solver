@@ -1,6 +1,7 @@
 package dev.tobiasweinlich.sudoku;
 
 import dev.tobiasweinlich.sudoku.field.Field;
+import dev.tobiasweinlich.sudoku.field.FieldFactory;
 
 public class SudokuFactory {
 
@@ -13,7 +14,7 @@ public class SudokuFactory {
     }
 
     public static Sudoku getInstance(final int[][] rawField) {
-        return new Sudoku(new Field(rawField));
+        return new Sudoku(FieldFactory.getInstance(rawField));
     }
 
     public static Sudoku solve() {

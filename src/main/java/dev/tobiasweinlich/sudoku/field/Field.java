@@ -4,17 +4,17 @@ public class Field {
 
     private int[][] rawField;
 
-    public Field() {}
+    Field() {}
 
-    public Field(final int[][] rawField) {
+    Field(final int[][] rawField) {
         this.rawField = rawField;
     }
 
-    public void setRawField(final int[][] rawField) {
+    void setRawField(final int[][] rawField) {
         this.rawField = rawField;
     }
 
-    public int[][] getRawField() {
+    int[][] getRawField() {
         return rawField;
     }
 

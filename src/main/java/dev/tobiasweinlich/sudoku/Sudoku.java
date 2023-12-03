@@ -6,9 +6,9 @@ public final class Sudoku {
 
     private Field field;
     
-    protected Sudoku() {}
+    Sudoku() {}
 
-    protected Sudoku(final Field field) {
+    Sudoku(final Field field) {
         this.field = field;
     }
 
