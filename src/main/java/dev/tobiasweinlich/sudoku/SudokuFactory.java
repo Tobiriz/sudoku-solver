@@ -17,8 +17,8 @@ public class SudokuFactory {
         return new Sudoku(FieldFactory.getInstance(rawField));
     }
 
-    public static Sudoku solve() {
-        return new Sudoku();
+    public static Field getField(final Sudoku sudoku) {
+        return sudoku.getField();
     }
 
 }

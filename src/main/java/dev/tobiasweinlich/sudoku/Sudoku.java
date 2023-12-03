@@ -12,4 +12,6 @@ public final class Sudoku {
         this.field = field;
     }
 
+    Field getField() { return field; }
+
 }

@@ -16,6 +16,10 @@ public class FieldFactory {
         return new Field(rawField);
     }
 
+    public static int[][] getRawField(final Field field) {
+        return field.getRawField();
+    }
+
     private static boolean rawFieldIsLegal(final int[][] rawField) {
         final var numberOfRows = rawField.length;
 
@@ -26,7 +30,6 @@ public class FieldFactory {
         final var numberOfCols = rawField[0].length;    
 
         return (numberOfRows == 9 && numberOfCols == 9);
-        
     }
 
 }
